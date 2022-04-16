@@ -1,0 +1,47 @@
+.navbar {
+    background-color: #1a5d97;
+    width:100%;
+    padding: 0.5rem 10rem 0.5rem 9rem;
+    position:fixed;
+}
+
+ul.navbar-nav {
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 0.75rem;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 2rem;
+    font-size: 1.1rem;
+}
+
+a.nav-link {
+    font-weight: bold;
+    color: white !important;
+}
+
+a.nav-link:hover {
+    color: #d6d6d6 !important;
+}
+
+.navbar-toggler {
+    color: #ccc;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.navbar-toggler:hover {
+    color: #fff;
+}
+
+.brand-logo:hover {
+    text-decoration: none;
+}
+
+.brand-icon > img {
+    height: 55px;
+}
